@@ -39,7 +39,10 @@ projects:
       
     assignments:
       - title: 技术简介
-        tagline: "\n1.fa\n2.fsdfd\n3.gafsfgsf\n4.jhgafDSFGDB\N5.UYTR"
+        tagline:
+            - "1.gajfs"
+            - "2.fd"
+
 
 skills:
     title: 技能熟练度
