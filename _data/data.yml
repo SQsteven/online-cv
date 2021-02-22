@@ -14,9 +14,9 @@ sidebar:
     # Sidebar links
     邮箱: 852241390@qq.com
     电话/微信: 137 1400 2902
-    工作年限:4年半
-    年龄:28
-    学历:本科
+    工作年限: 4年半
+    年龄: 28
+    学历: 本科
 
 education:
     - degree: 泉州师范学院
@@ -59,26 +59,20 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 技能熟练度
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Object-C & Swift
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C语言
+        level: 50%
+
+      - name: Javascript
+        level: 33%
+
+      - name: C++
+        level: 10%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
