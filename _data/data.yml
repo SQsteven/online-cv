@@ -12,11 +12,11 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    邮箱: 852241390@qq.com
-    电话/微信: 137 1400 2902
-    工作年限: 4年半
-    年龄: 28
-    学历: 本科
+    email: 852241390@qq.com
+    phone: 137 1400 2902
+    #工作年限: 4年半
+    #年龄: 28
+    #学历: 本科
 
 education:
     - degree: 泉州师范学院
