@@ -35,15 +35,11 @@ experiences:
 projects:
     title: Mighty
     intro: >
-      完全自主研发的一款聊天支付社交软件,主要研发技术包含:即时通讯、音视频、区块链钱包等等。其中我主要负责区块链钱包的开发，分为去中心化冷钱包和中心化热钱包，其中对区块链地址，私钥，公钥生成，交易签名加密进行封装。
+      Mighty是一款完全自主研发的聊天支付社交软件,主要研发技术包含:即时通讯、音视频、区块链钱包等等。其中我主要负责区块链钱包的开发，分为去中心化冷钱包和中心化热钱包，其中对区块链地址、私钥、公钥的生成，交易签名加密进行封装并缓存数据。
       
     assignments:
       - title: 技术简介
-        tagline: "1.fa"
-        tagline: "2.fa"
-        tagline: "3.fa"
-        tagline: "4.fa"
-        tagline: "5.fa"
+        tagline: "\n1.fa\n2.fsdfd\n3.gafsfgsf\n4.jhgafDSFGDB\N5.UYTR"
 
 skills:
     title: 技能熟练度
