@@ -31,48 +31,29 @@ experiences:
     - role: iOS开发工程师
       time: 2016.9 - 2018.3
       company: 深圳前海融和金通科技有限公司
+      
 projects:
-    title: Projects
+    title: Mighty
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      完全自主研发的一款聊天支付社交软件,主要研发技术包含:即时通讯、音视频、区块链钱包等等。其中我主要负责区块链钱包的开发，分为去中心化冷钱包和中心化热钱包，其中对区块链地址，私钥，公钥生成，交易签名加密进行封装。
+      
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 技术简介
+        tagline: "1.fa"
+        tagline: "2.fa"
+        tagline: "3.fa"
+        tagline: "4.fa"
+        tagline: "5.fa"
 
 skills:
     title: 技能熟练度
 
     toolset:
       - name: Object-C & Swift
-        level: 85%
+        level: 92%
 
       - name: C语言
-        level: 50%
-
-      - name: Javascript
         level: 33%
-
-      - name: C++
-        level: 10%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
