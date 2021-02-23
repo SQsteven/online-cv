@@ -27,15 +27,22 @@
         {{ project.title }}
         {% endif %}
       </span>
+      {% if project.tagline %}
+      <div class="details">
+        {{ project.tagline | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+      <!--
       {% for tag in project.tagline %}
        <div class="project-tagline">{{tag}}</div>
-      {% endfor %}
+      {% endfor %} -->
       <!--
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
       -->
     </div><!--//item-->
+    <br>
   {% endfor %}
 {% endfor %}
 </section><!--//section-->
