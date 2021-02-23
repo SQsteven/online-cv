@@ -3,63 +3,94 @@
 #
 
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: 郑启明
-  tagline: iOS开发工程师
-  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: 郑启明
+    tagline: iOS开发工程师
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: 852241390@qq.com
-  phone: 137 1400 2902
-  worktime: 4年半
-  year: 28
-  education: 本科
+    # Sidebar links
+    email: 852241390@qq.com
+    phone: 13714002902
+    website:  #do not add http://
+    linkedin: 1993年4月
+    github: kimanGG
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: 4.5年工作经验 # Number-Username, e.g. 123456-alandoe
+
+    interests:
+      - item: 跑步 旅游 编程
+        link:
+
+career-profile:
+    title: 个人简介
+    summary: |
+      4.5年的iOS开发经验，开发多款从0到1的经验，开发项目的类型包括：IM、交易所、区块链钱包、直播、地图、智能穿戴、商城等。
+      深入研究iOS各个技术点包括：UIKit、Runtime、性能优化、JS交互、数据安全、马甲包上架、组件化等。
+      封装多个底层框架：离线钱包、WebSocket二次封装、IM、AFNetworking二次封装、自定义弹框吐司、空白页、K线等。
+      有半年的团队leader经验，能协调部门人员的工作，把控项目的进度和代码的质量。
 
 education:
-  - degree: 泉州师范学院
-    time: 2012 - 2016
+    - degree: 本科学士
+      university: 泉州师范学院
+      time: 2012 - 2016
 experiences:
-  - role: iOS研发组组长
-    time: 2019.4 - 2021.3
-    company: 深圳链升科技有限公司
-  - role: iOS开发工程师
-    time: 2018.4 - 2019.4
-    company: 深圳市趣虹科技有限公司
-  - role: iOS开发工程师
-    time: 2016.9 - 2018.3
-    company: 深圳前海融和金通科技有限公司
-
+    - role: iOS研发工程师
+      time: 2019-04 至今
+      company: 深圳链升科技有限公司
+      details: |
+        负责公司交易所btcShark、公链MVX、冷钱包等项目的开发与技术研究。
+        管理和协调部门人员之间的工作，把控项目进度和质量，进行基础项目架构，解耦各个模块，并分配任务与责任。我在公司中对项目管理、架构、沟通、技术研究都进行了进一步的学习。
+    - role: iOS开发工程师
+      time: 2018-04 至 2019-04
+      company: 深圳市趣虹科技有限公司
+      details: |
+        负责公司YouStar项目的开发，主要模块包括：基础模块、IM、转盘小游戏、左滑喜欢右滑不喜欢、内购等。在该公司中我对动画，线程，KVO、IM、Websocket、内购、马甲包都有一定的涉猎并有实际的经验。
+    - role: iOS开发工程师
+      time: 2016-09 至 2018-04
+      company: 深圳前海融和金通科技有限公司
+      details: |
+        独立负责公司外包项目的开发，包括有融和宝、helpBe、upFish、海米尔等，在其中我的代码功底和项目经验得到了很全面的提升。
 projects:
     title: 项目经验
+    intro:
     assignments:
       - title: Mighty
-        tagline: |
-          - 管理和协调部门人员之间的工作，深入技术研究（音视频、公链、冷钱包）。
-          - 把控项目进度和质量，进行基础项目架构，解耦各个模块，并分配任务与责任。
-          - 制定错误码与文本字符串的国际化标准，可精准定位开发人员与相关页面
-        intro: >
-          Mighty是一款完全自主研发的聊天支付社交软件,主要研发技术包含:即时通讯、音视频、区块链钱包等等。其中我主要负责区块链钱包的开发，分为去中心化冷钱包和中心化热钱包，其中对区块链地址、私钥、公钥的生成，交易签名加密进行封装并缓存数据。该App已在新加坡等地区上架，官网https://mighty.io
+        tagline:
+          - lights:
+            - "1. 制定错误码与国际化文本字符串的命名标准，可精准定位开发人员与相关页面。"
+            - "2. 冷钱包账户体系的生成，离线交易签名的实现。"
+            - "3. 公链MVX的交易体系的实现和交易签名。"
+            - "4. 解耦数据层和显示层，加强复用性。"
+            - "5. 颜色UIColor的扩展与快捷调用。"
+            - "6. 对浮点数数据的精度计算与补位。"
+            - "7. 对不同安全键盘的封装与优化。"
+            - "8. 对自定义弹框的封装与动画实现。"
+            - "9. 封装AFNetworking，实现HTTPS证书添加，取消网络请求，错误码统一处理，数据加密等。"
 
-      - title: BtcShark
-        tagline: |
-          - 封装WebSocket工具类，并进行订阅K线，行情，IM聊天等双向通讯机制。
-          - 通过单例作为全局开关，进行显示不同图片文本布局的换肤功能开发。
-          - 封装横竖屏K线图、技术线图、K线计算管理类、聊天页、统一弹框、加载动画等。
-          - 进行安全策略测试与防止反编译代码优化。
-        intro: >
-          BtcShark是一款虚拟币交易所项目，其中涉及行情、币币交易、法币交易、账单等多种交易方式，我负责搭建基础框架，分配任务。币币，行情，账单等多个模块都是由我完成，实现了快速换皮，安全渗透，防止反编译等难点
+            difficults:
+              - "1. 冷钱包账户体系的协议，加密算法，交易签名与验证。网络上的资料太少，只能通过看源码以及java源码进行验证参考，通过OpenSSL自己混编OC和Swift的代码。"
+              - "2. UI给出的颜色有太多种，如果全部用宏定义不仅不能适配暗黑模式，还不好维护，我专门为UIColor写了一个扩展，定义颜色16进制，在资源文件Assets.xcassets中添加颜色资源，通过colorNamed方法定位颜色，切换暗黑模式可直接颜色。
+              - "3. 浮点数数据显示会导致科学计数法，而精度计算常常超过浮点数的最大限度位数，浮点数需要根据精度进行补位问题。通过对NSString的扩展，进行数据字符串显示，并且直接以字符串进行补位0，计算通过NSDecimalNumber来更精确计算并转为一个对象。"
+
 skills:
-  title: 技能熟练度
+    title: 技能 &amp; 熟练程度
 
-  toolset:
-    - name: Object-C & Swift
-      level: 92%
+    toolset:
+      - name: Object-C & Swift
+        level: 90%
 
-    - name: C语言
-      level: 33%
+      - name: C语言
+        level: 30%
+
+      - name: JavaScript & C++
+        level: 10%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="https://sudor.github.io/online-cv/" rel="nofollow">kitar.zheng</a>
