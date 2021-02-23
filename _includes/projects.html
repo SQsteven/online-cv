@@ -1,5 +1,6 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
+{% for experience in experiences %}
 <section class="section projects-section">
 
   <h2 class="section-title">
@@ -36,6 +37,6 @@
       -->
     </div><!--//item-->
   {% endfor %}
-
+{% endfor %}
 </section><!--//section-->
 {% endif %}
