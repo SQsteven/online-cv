@@ -31,6 +31,8 @@
         {% for tl in project.tagline %}
           <hr>
           <p class="project-tagline">{{ tl.summary }}</p>
+          <p><strong>项目简介:</strong> {{tl.technologies}}</p>
+          <br>
           <p><strong>技术简介:</strong></p>
           {% for l in tl.lights %}
             <div class="project-tagline">{{ l }}</div>
