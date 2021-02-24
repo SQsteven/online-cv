@@ -32,6 +32,11 @@
           <p class="project-tagline">{{ tl.summary }}</p>
           <p><strong>项目简介:</strong> {{tl.technologies}}</p>
           <br>
+          <p><strong>个人职责:</strong></p>
+          {% for p in tl.responsibility %}
+            <div class="project-tagline">{{ p }}</div>
+          {% endfor %}
+          <br>
           <p><strong>技术要点:</strong></p>
           {% for l in tl.lights %}
             <div class="project-tagline">{{ l }}</div>
@@ -41,6 +46,8 @@
           {% for p in tl.difficults %}
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
+          <br>
+          <p><strong>项目成果:</strong> {{tl.result}}</p>
           <br>
         {% endfor %}
       {% endif %}
