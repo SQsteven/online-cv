@@ -35,7 +35,11 @@ career-profile:
       深入研究iOS各个技术点包括：UIKit、Runtime、性能优化、JS交互、数据安全、马甲包上架、组件化等。
       封装多个底层框架：离线钱包、WebSocket二次封装、IM、AFNetworking二次封装、自定义弹框吐司、空白页、K线等。
       有半年的团队leader经验，能协调部门人员的工作，把控项目的进度和代码的质量。
-
+    papers:
+      - title: 精通Object-C,熟悉Swift,能根据需求设计稳定性、扩展性较好的框架。
+      - title: 熟练使用国内外第三方SDK。地图，直播，支付，分享，登录，埋点统计，IM，推送，语音识别等。
+      - title: 熟练使用Instruments进行内存问题自测，APP瘦身，列表卡顿等性能进行优化。
+      
 education:
     - degree: 本科学士
       university: 泉州师范学院
@@ -58,13 +62,6 @@ experiences:
       details: |
         独立负责公司外包项目的开发，包括有融和宝、helpBe、upFish、海米尔等，在其中我的代码功底和项目经验得到了很全面的提升。
         
-publications:
-    title: 专业技能
-    papers:
-      - title: 精通Object-C,熟悉Swift,能根据需求设计稳定性、扩展性较好的框架。
-      - title: 熟练使用国内外第三方SDK。地图，直播，支付，分享，登录，埋点统计，IM，推送，语音识别等。
-      - title: 熟练使用Instruments进行内存问题自测，APP瘦身，列表卡顿等性能进行优化。
-      
 projects:
     title: 项目经验
     intro:
