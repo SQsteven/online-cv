@@ -43,6 +43,11 @@
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
           <br>
+          <p><strong>其他App以及简介:</strong></p>
+          {% for p in tl.other %}
+            <div class="project-tagline">{{ p }}</div>
+          {% endfor %}
+          <br>
         {% endfor %}
       {% endif %}
 
