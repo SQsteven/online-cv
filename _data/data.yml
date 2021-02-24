@@ -57,6 +57,14 @@ experiences:
       company: 深圳前海融和金通科技有限公司
       details: |
         独立负责公司外包项目的开发，包括有融和宝、helpBe、upFish、海米尔等，在其中我的代码功底和项目经验得到了很全面的提升。
+        
+publications:
+    title: 专业技能
+    papers:
+      - title: 精通Object-C,熟悉Swift,能根据需求设计稳定性、扩展性较好的框架。
+      - title: 熟练使用国内外第三方SDK。地图，直播，支付，分享，登录，埋点统计，IM，推送，语音识别等。
+      - title: 熟练使用Instruments进行内存问题自测，APP瘦身，列表卡顿等性能进行优化。
+      
 projects:
     title: 项目经验
     intro:
