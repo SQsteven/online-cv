@@ -35,13 +35,11 @@
           <p><strong>项目简介:</strong> {{tl.technologies}}</p>
           <br>
           {% endfor %}
-          {% if tl.lights %}
           <p><strong>技术要点:</strong></p>
           {% for l in tl.lights %}
             <div class="project-tagline">{{ l }}</div>
           {% endfor %}
           <br>
-          {% endif %}
           {% if tl.difficults %}
           <p><strong>攻克难点记录:</strong></p>
           {% for p in tl.difficults %}
