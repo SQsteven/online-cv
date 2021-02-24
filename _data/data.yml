@@ -101,13 +101,6 @@ projects:
             difficults:
               - "1. 文本国际化适配阿拉伯语，阿拉伯语习惯于从右到左阅读书写习惯。"
             technologies: "YouStar是一款针对阿拉伯等地区的直播APP，我主要负责基础模块，转盘小游戏，直播礼物播放机制，左滑喜欢右滑不喜欢等模块。"
-      - title: Other App
-        tagline:
-          - lights:
-            other:
-              - "融和宝：p2p 针对中小商家提供的收款码整合服务，金融线上POS机。"
-              - "海米尔：智能穿戴手表，实现手表定位，通讯，计步等。"
-              - "upFish：上鱼App的的日本版，为钓鱼等相关内容提供直播，视频服务的App"
 skills:
     title: 技能 &amp; 熟练程度
 

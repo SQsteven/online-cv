@@ -31,29 +31,23 @@
         {% for tl in project.tagline %}
           <hr>
           <p class="project-tagline">{{ tl.summary }}</p>
-          {% if tl.technologies %}
           <p><strong>项目简介:</strong> {{tl.technologies}}</p>
           <br>
-          {% endfor %}
           <p><strong>技术要点:</strong></p>
           {% for l in tl.lights %}
             <div class="project-tagline">{{ l }}</div>
           {% endfor %}
           <br>
-          {% if tl.difficults %}
           <p><strong>攻克难点记录:</strong></p>
           {% for p in tl.difficults %}
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
           <br>
-          {% endif %}
-          {% if tl.other %}
           <p><strong>其他App以及简介:</strong></p>
           {% for p in tl.other %}
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
           <br>
-          {% endif %}
         {% endfor %}
       {% endif %}
 
