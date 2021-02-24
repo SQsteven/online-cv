@@ -14,7 +14,7 @@
     {{ career-profile.summary | markdownify }}
   </div><!--//summary-->
     
-  {% for publication in publications.papers %}
+  {% for publication in career-profile.papers %}
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
