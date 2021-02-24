@@ -122,5 +122,9 @@ skills:
       - name: JavaScript & C++
         level: 10%
 
+end:
+    title: 致谢
+    intro:感谢您花时间阅读我的简历，期待能有机会和您共事。
+    
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="https://sudor.github.io/online-cv/" rel="nofollow">kitar.zheng</a>
