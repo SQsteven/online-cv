@@ -22,7 +22,7 @@ sidebar:
     twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: 4.5年工作经验 # Number-Username, e.g. 123456-alandoe
+    goodreads: 5年工作经验 # Number-Username, e.g. 123456-alandoe
 
     interests:
       - item: 跑步 旅游 编程
@@ -31,10 +31,10 @@ sidebar:
 career-profile:
     title: 个人简介
     summary: |
-      4.5年的iOS开发经验，开发多款从0到1的经验，开发项目的类型包括：IM、交易所、区块链钱包、直播、地图、智能穿戴、商城等。有半年的团队leader经验，能协调部门人员的工作，把控项目的进度和代码的质量。深入研究iOS各个技术点包括：
+      5年的iOS开发经验，开发多款从0到1的经验，开发项目的类型包括：IM、交易所、区块链钱包、直播、地图、智能穿戴、商城等。有半年的团队leader经验，能协调部门人员的工作，把控项目的进度和代码的质量。深入研究iOS各个技术点包括：
     papers:
-      - title: UIKit、Runtime、KVO、性能优化、JS交互、数据安全、马甲包上架、组件化等。
-      - title: 封装模块：离线钱包、WebSocket、IM、语言与国际化、弹框动画、K线等。
+      - title: Cocoa框架、Runtime、KVO、性能优化、JS交互、数据安全、马甲包上架、组件化等。
+      - title: 封装模块：离线钱包、WebSocket、IM、语言与国际化、K线、弹框动画等。
       - title: 自检自查：LLDebugTool、Instruments、Bugly、消除Crash隐患、App瘦身等。
       
 education:
@@ -47,7 +47,7 @@ experiences:
       company: 深圳链升科技有限公司
       details: |
         负责公司交易所btcShark、公链MVX、冷钱包等项目的开发与技术研究。
-        管理和协调部门人员之间的工作，把控项目进度和质量，进行基础项目架构，解耦各个模块，并分配任务与责任。我在公司中对项目管理、架构、沟通、技术研究都进行了进一步的学习。
+        管理和协调部门人员之间的工作，把控项目进度和质量，进行基础项目架构，解耦各个模块，并分配任务与责任。我在公司中对项目管理、架构、沟通、技术研究都有了进一步的学习。
     - role: iOS开发工程师
       time: 2018-04 至 2019-04
       company: 深圳市趣虹科技有限公司
