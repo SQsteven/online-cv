@@ -38,11 +38,13 @@
             <div class="project-tagline">{{ l }}</div>
           {% endfor %}
           <br>
+          {% if tl.lights %}
           <p><strong>攻克难点记录:</strong></p>
           {% for p in tl.difficults %}
             <div class="project-tagline">{{ p }}</div>
           {% endfor %}
           <br>
+          {% endif %}
           <p><strong>其他App以及简介:</strong></p>
           {% for p in tl.other %}
             <div class="project-tagline">{{ p }}</div>
