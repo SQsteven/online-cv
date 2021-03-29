@@ -7,12 +7,12 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: 郑启明
+    name: 严顺泉
     tagline: iOS开发工程师
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+#     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: zhengqiming.em@foxmail.com
+    email: yanshunquan123@163.com
     phone: 13714002902
     website:  #do not add http://
     linkedin: 1993年4月
