@@ -9,13 +9,13 @@ sidebar:
     # Profile information
     name: 严顺泉
     tagline: iOS开发工程师
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+#     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: yanshunquan123@163.com
-    phone: 13714002902
+    phone: 13332922760
     website:  #do not add http://
-    linkedin: 1993年4月
+    linkedin: 1992年1月
     github:
     gitlab:
     bitbucket:
@@ -25,13 +25,13 @@ sidebar:
     goodreads: 5年工作经验 # Number-Username, e.g. 123456-alandoe
 
     interests:
-      - item: 跑步 旅游 编程
+      - item: 游泳 旅游 编程
         link:
 
 career-profile:
     title: 个人简介
     summary: |
-      本人有5年的iOS开发经验，开发多款从0到1的项目，开发项目的类型包括：即时通讯、交易所、区块链钱包、直播、地图、智能穿戴、商城等。深入研究iOS各个技术点包括：
+      本人有5年的iOS开发经验，开发多款从0到1的项目，开发项目的类型包括：即时通讯、直播、地图、蓝牙、商城等。深入研究iOS各个技术点包括：
     papers:
       - title: Cocoa框架、Runtime、KVO、APNS、App Extension等
       - title: WebSocket、IM、性能优化、语言与国际化、JS交互、数据安全、马甲包上架、组件化等。
