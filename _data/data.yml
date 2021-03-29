@@ -34,7 +34,7 @@ career-profile:
       本人有5年的iOS开发经验，开发多款从0到1的项目，开发项目的类型包括：即时通讯、直播、地图、蓝牙、商城等。深入研究iOS各个技术点包括：
     papers:
       - title: Cocoa框架、Runtime、KVO、APNS、App Extension等
-      - title: WebSocket、IM、性能优化、语言与国际化、JS交互、数据安全、马甲包上架、组件化等。
+      - title: IM、性能优化、语言与国际化、JS交互、数据安全、马甲包上架、组件化等。
       - title: Instruments、Bugly、消除Crash隐患等。
       - title: App瘦身、App加固、混淆、资源文件安全等。
       
@@ -81,7 +81,7 @@ projects:
 #               - "3. 保存加密钱包数据引入的身份钱包的概念以及加密保存。"
 #               - "4. 不同币种和代币的交易签名算法以及结果验证。"
 
-            technologies: "萌播是一款直播软件，主要研发技术包含：即时通讯、音视频、直播等等。该App已在上架"
+            technologies: "萌播是一款直播软件，主要研发技术包含：即时通讯、音视频、直播等等。该App已上架"
             result:
                 "重构数据库，优化了启动等，对App性能进行了大幅度的提升。"
             responsibility:
